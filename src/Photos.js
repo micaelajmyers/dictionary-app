@@ -13,7 +13,7 @@ export default function Photos(props) {
                     src={photo.urls.regular}
                     alt={photo.alt_description}
                     title={photo.alt_description}
-                    className="img-fluid"
+                    className="img-fluid photo-box"
                   />
                 </a>
               </div>

@@ -46,3 +46,10 @@
 .Example {
   margin-top: 10px;
 }
+
+.photo-box {
+  margin: 3px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 100%;
+}
