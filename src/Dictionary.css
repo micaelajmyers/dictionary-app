@@ -1,2 +1,36 @@
-.searchBar {
+.search-bar {
+  border: 4px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.search-btn {
+  background-color: var(--primary-color);
+  color: var(--highlight-color);
+  border: 4px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.app-box {
+  border: 4px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.audio-player {
+  width: 35px;
+  height: 35px;
+}
+.controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
 }

@@ -1,5 +1,10 @@
 body {
-  background-color: #f5fcff;
+  background-color: var(--secondary-color);
+}
+.App {
+  color: var(--primary-color);
+  max-width: 800px;
+  margin: 0 auto;
 }
 .App-header {
   margin: 30px 0;

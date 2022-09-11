@@ -5,11 +5,13 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        <h2>{props.results.word}</h2>
-        <Phonetics phonetics={props.results.phonetics} />
+        <div className="app-box">
+          <h2>{props.results.word}</h2>
+          <Phonetics phonetics={props.results.phonetics} />
+        </div>
         {props.results.meanings.map(function (meaning, index) {
           return (
-            <div key={index}>
+            <div key={index} className="app-box">
               <Meaning meaning={meaning} />
             </div>
           );

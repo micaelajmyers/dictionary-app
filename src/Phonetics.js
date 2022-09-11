@@ -3,15 +3,18 @@ import AudioPlayer from "./AudioPlayer";
 
 export default function Phonetics(props) {
   return (
-    <div className="Phonetics">
+    <div className="Phonetics d-flex align-items-center">
       {props.phonetics.map(function (phonetic, index) {
         if (phonetic.audio && phonetic.text) {
           return (
-            <div key={index}>
+            <div
+              className="ps-4 d-flex flex-wrap align-items-center"
+              key={index}
+            >
               <div>
                 <AudioPlayer audio={phonetic.audio} />
               </div>
-              <div>{phonetic.text}</div>
+              <div className="ps-2">{phonetic.text}</div>
             </div>
           );
         } else {
