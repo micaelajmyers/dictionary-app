@@ -23,14 +23,26 @@
   margin-top: 10px;
 }
 
-.audio-player {
-  width: 35px;
-  height: 35px;
+.Synonyms {
+  margin: 30px 0 0;
+  padding: 0;
 }
-.controls {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
+
+.Synonyms li {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.Antonyms {
+  margin: 30px 0 0;
+  padding: 0;
+}
+
+.Antonyms li {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.Example {
   margin-top: 10px;
 }
